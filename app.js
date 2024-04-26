@@ -48,7 +48,7 @@ function addTask() {
   });
 
   editBtn.addEventListener("click", function () {
-    var update = prompt("Edit task:", taskSpan.textContent);
+    var update = prompt("Enter updated task:", taskSpan.textContent);
     if (update !== null) {
       taskSpan.textContent = update;
       li.classList.remove("completed");
