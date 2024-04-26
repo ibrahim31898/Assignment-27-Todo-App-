@@ -72,3 +72,14 @@ inputBox.addEventListener("keyup", function (event) {
     addTask();
   }
 });
+
+var deleteAllButton = document.getElementById("delete-all-button");
+
+deleteAllButton.addEventListener("click", function () {
+  if (confirm("Are you sure you want to delete all tasks?")) {
+    listContainer.innerHTML = ""; 
+    updateCounters();
+  }
+});
+
+
