@@ -34,6 +34,17 @@ body{
     border-radius: 5px;
     background-color: #2e60ea;
   }
+
+  #delete-all-button{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e60ea;
+
+  }
   
   .task button{
     background: rgb(12, 124, 251);
